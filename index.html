@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>atlante sicuro</title>
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">ATSI</h2>
+			<div class="toggle"></div>
+		</header>
+
+		<video src="media/background.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>CREATE EXPLORE</h2>
+			<h3>EXPAND CONQUER</h3>	
+			<a href="#">More</a>
+		</div>
+			
+		<ul class="social">
+			<li><a href="https://twitter.com/atlantesicuro" target="_blank"><img src="media/twitter.png"></a></li>
+		</ul>	
+	</section>	
+
+	<div class="menu">
+		<ul>
+			<li><a href="https://pancakeswap.finance" target="_blank"><img src="media/pancakeswap.png" width="100px"></a></li>
+			<li><a href="https://poocoin.app/tokens/0x49c5251555dd2853b01df3b121213324da800859" target="_blank"><img src="media/poocoin.png" width="100px"></a></li>
+		</ul>
+
+	<script>
+		 const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+	</script>	
+</body>
+</html>
