@@ -8,15 +8,15 @@
 }
 
 header {
-  position: absolute;
+  position: relative;
   top: 0;
-  left: 0;
+  left: -100px;
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
-  display: flex;
+  display: list-item;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 header .logo {
@@ -24,16 +24,13 @@ header .logo {
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  display: table-header-group;
+  display: inline-flex;
   margin-right: 20px;
   transform: scale(1);
   transition: 0.5s;
 }
 
-.logo:hover {
-  transform: scale(0.5) translateY(-25px);
-  letter-spacing: 16px;
-}
+
 
 .toggle {
   position: relative;
@@ -65,7 +62,7 @@ header .logo {
 
 .showcase {
   position: absolute;
-  right: 0;
+  right: : 0;
   width: 100%;
   min-height: 100vh;
   padding: 100px;
@@ -131,7 +128,7 @@ header .logo {
 }
 
 .text a {
-  display: inline-block;
+  display: list-item;
   font-size: 1em;
   background: #fff;
   padding: 10px 30px;
@@ -142,10 +139,11 @@ header .logo {
   color: #111;
   letter-spacing: 2px;
   transition: 0.2s;
+  justify-content: flex-start;
 }
 
 .text a:hover {
-  letter-spacing: 16px;
+  letter-spacing: 20px;
 }
 
 .social {
@@ -174,59 +172,30 @@ header .logo {
 }
 
 
-
-
-
-.social li2 {
-  list-style: none;
-}
-
-.social li2 a {
-  display: inline;
-  margin-right: 20px;
-  filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s;
-  bottom: 40px;
-}
-
-.social li2 a:hover {
-  transform: scale(2.5) translateY(-25px);
-}
-
-
-
-
-
-
-.menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu ul {
+.cta {
   position: relative;
+  text-align: center;
 }
 
-.menu ul li {
-  list-style: none;
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0,136,169,0.8);
 }
 
-.menu ul li a {
-  text-decoration: none;
-  font-size: 24px;
-  color: #111;
-}
 
-.menu ul li a:hover {
-  color: #03a9f4; 
-}
+
+
+
+
+
 
 @media all and (max-width: 480px) {
   .showcase,
