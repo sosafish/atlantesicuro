@@ -151,10 +151,10 @@ header .logo {
 .social {
   position: absolute;
   z-index: 10;
-  bottom: 20px;
+  bottom: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .social li {
@@ -172,6 +172,32 @@ header .logo {
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
+
+
+
+
+
+.social li2 {
+  list-style: none;
+}
+
+.social li2 a {
+  display: inline;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+  bottom: 40px;
+}
+
+.social li2 a:hover {
+  transform: scale(2.5) translateY(-25px);
+}
+
+
+
+
+
 
 .menu {
   position: absolute;
