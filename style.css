@@ -57,7 +57,7 @@ header .logo {
 }
 
 .showcase.active {
-	right: 300px;
+	right: 200px;
 }
 
 .showcase header {
@@ -72,13 +72,11 @@ header .logo {
 	justify-content: space-between;
 }
 
-
-
 .toggle {
 	position: relative;
 	width: 60px;
 	height: 60px;
-	background: url('media/menu.png');
+	background: url();
 	background-repeat: no-repeat;
 	background-size: 30px;
 	background-position: center;
@@ -97,7 +95,7 @@ header .logo {
 }
 
 .toggle.active {
-	background: url('media/close.png');
+	background: url();
 	background-repeat: no-repeat;
 	background-size: 30px;
 	background-position: center;
@@ -137,7 +135,7 @@ header .logo {
 }
 
 .text h3 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 1em;
 	text-transform: uppercase;
@@ -146,7 +144,7 @@ header .logo {
 .text a {
 	display: inline-block;
 	font-size: 1em;
-	background: #fff;
+	background: ##03a9f4;
 	padding: 10px 30px;
 	text-decoration: none;
 	color: #111;
@@ -205,6 +203,7 @@ header .logo {
 	text-decoration: none;
 	font-size: 24px;
 	color: #111;
+	background-color: #03a9f4;
 }
 
 .menu ul li a:hover {
