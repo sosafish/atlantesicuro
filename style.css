@@ -144,14 +144,14 @@ header .logo {
 .text a {
 	display: inline-block;
 	font-size: 1em;
-	background: #03a9f4;
+	background: #fff;
 	padding: 10px 30px;
 	text-decoration: none;
 	color: #111;
 	margin-top: 10px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	transition: 0.4s;
+	letter-spacing: 20px;
+	transition: 0.7s;
 }
 
 .text a:hover {
