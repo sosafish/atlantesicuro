@@ -101,6 +101,8 @@ header .navigation a:hover {
 
 .content .info-btn:hover {
 	background: #a57ebc;
+	letter-spacing: 20px;
+	transition: 1s;
 }
 
 .media-icons {
