@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 section {
@@ -14,7 +14,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background: url(media/background.jpg)no-repeat;
+	background: url(media/background2.jpg)no-repeat;
 	background-size: cover;
 	background-position: center;
 	opacity: 0.8;
@@ -32,7 +32,7 @@ header {
 
 header .logo {
 	position: relative;
-	color: #000;
+	color: #50f4c3;
 	font-size: 30px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -56,7 +56,7 @@ header .navigation a:not(:last-child) {
 }
 
 header .navigation a:hover {
-	background: #fff;
+	background: #none;
 }
 
 .content {
@@ -65,9 +65,9 @@ header .navigation a:hover {
 }
 
 .content .info h2 {
-	color: #226A80;
+	color: #fff;
 	font-size: 55px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-weight: 800px;
 	letter-spacing: 2px;
 	line-height: 60px;
@@ -88,7 +88,7 @@ header .navigation a:hover {
 
 .content .info-btn {
 	color: #fff;
-	background: #226A80;
+	background: #bc7e95;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -100,7 +100,7 @@ header .navigation a:hover {
 }
 
 .content .info-btn:hover {
-	background: #0C4F60;
+	background: #a57ebc;
 }
 
 .media-icons {
@@ -161,7 +161,7 @@ label {
 	#check:checked ~ header .navigation {
 		z-index: 2;
 		position: fixed;
-		background: rgba(114, 223, 255, 0.9);
+		background: #bc7e95;
 		top: 0;
 		bottom: 0
 		left: 0;
