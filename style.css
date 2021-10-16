@@ -211,7 +211,7 @@ label {
 	}
 
 	.content .info p {
-		font-size: 8px;
+		font-size: 2px;
 	}
 }
 
@@ -227,6 +227,6 @@ label {
 	}
 
 	.content .info p {
-		font-size: 6px;
+		font-size: 1px;
 	}
 }
