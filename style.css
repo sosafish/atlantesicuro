@@ -66,7 +66,7 @@ header .navigation a:hover {
 
 .content .info h2 {
 	color: #fff;
-	font-size: 55px;
+	font-size: 20px;
 	text-transform: lowercase;
 	font-weight: 800px;
 	letter-spacing: 2px;
@@ -76,7 +76,7 @@ header .navigation a:hover {
 
 .content .info h2 span {
 	color: #fff;
-	font-size: 50px;
+	font-size: 20px;
 	font-weight: 600;
 }
 
@@ -141,7 +141,7 @@ label {
 
 @media (max-width: 960px) {
 	header .navigation {
-		display: none;
+		display: inline;
 	}
 
 	label {
