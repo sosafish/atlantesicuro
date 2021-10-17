@@ -126,10 +126,8 @@ header .navigation h3:hover {
     text-decoration: none;
     color: seashell;
     transition: 1s;
-}
-
-.contract p:hover {
-    color: #160029;
+    font-size: 15px;
+    letter-spacing: 10px;
 }
 
 .contract a:hover {
