@@ -24,7 +24,7 @@ section {
     justify-content: flex-end;
     opacity: 0.8;
     color: azure;
-    background: url(media/bg6.jpg);
+    background: powderblue;
 	background-size: cover;
 	background-position: center;
     border-radius: 25px;
@@ -132,5 +132,5 @@ header .navigation h3:hover {
 
 .contract a:hover {
     letter-spacing: 25px;
-    color: #fff;
+    color: #88745e;
 }
