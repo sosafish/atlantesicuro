@@ -16,7 +16,6 @@ section {
     position: relative;
     width: 50%;
     min-height: 80vh;
-    background-color: #160029;
     text-align: center;
     display: inline-block;
     justify-content: flex-end;
@@ -112,7 +111,7 @@ header .navigation h3:hover {
     border-radius: 25px;
     border: 0px;
     padding: 10px;
-    background-color: #b0e6ff;
+    background-color: #ffd09e;
     width: fit-content;
     height: fit-content;
     margin-left: auto;
