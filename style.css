@@ -1,129 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@200;300&display=swap');
-
-* {
-    margin: 20;
-    padding: 20;
-    box-sizing: border-box;
-    font-family: "Lexend Exa";
-    text-align: center;
-}
-
-body {
-    background:#03a9f4;
-}
-
-section {
-    position: relative;
-    width: 50%;
-    min-height: 80vh;
-    text-align: center;
-    display: inline-block;
-    justify-content: flex-end;
-    opacity: 0.8;
-    color: azure;
-    background: #8cecff;
-    background-size: cover;
-    background-position: center;
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    width: fit-content;
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    background-color: #ffd09e;
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header .logo {
-    text-transform: uppercase;
-    color: #160029;
-    text-decoration: none;
-    letter-spacing: 3px;
-    transition: 1s;
-    font-weight: 100;
-}
-
-header .logo:hover {
-    letter-spacing: 10px;
-}
-
-header .navigation a {
-    text-transform: none;
-    text-decoration: none;
-    color: #160029;
-    transition: 1s;
-    padding: 10px -10px;
-    border-radius: 25px;
-    border: 0px;
-    width: auto;
-    height: auto;
-    background-color: #ffd09e;
-}
-
-header .navigation a:hover {
-    letter-spacing: 10px;
-}
-
-header .navigation h3:hover {
-    letter-spacing: 10px;
-}
-
-.info h2 {
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.info p {
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    background-color: powderblue;
-    color: #160029;
-    width: 300px;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.info p:hover {
-    background-color: #ffab9e;
-    transition: background-color 0.5s;
-}
-
-.navigation {
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    background-color: #ffd09e;
-    width: fit-content;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .contract a {
     text-decoration: none;
     color: seashell;
     transition: 1s;
 }
 
+.contract p:hover {
+    color: #160029;
+}
+
 .contract a:hover {
     letter-spacing: 30px;
+    color: #160029;
 }
