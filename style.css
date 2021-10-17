@@ -115,7 +115,7 @@ header .navigation h3:hover {
     border-radius: 25px;
     border: 0px;
     padding: 10px;
-    background-color: #ffd09e;
+    background-color: powderblue;
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -133,4 +133,26 @@ header .navigation h3:hover {
 .contract a:hover {
     letter-spacing: 25px;
     color: #88745e;
+}
+
+.second {
+    position: relative;
+    width: 50%;
+    min-height: 80vh;
+    text-align: center;
+    display: inline-block;
+    justify-content: flex-end;
+    opacity: 0.8;
+    color: azure;
+    background: powderblue;
+	background-size: cover;
+	background-position: center;
+    border-radius: 25px;
+    border: 0px;
+    padding: 10px;
+    width: fit-content;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.9;
 }
