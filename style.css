@@ -9,7 +9,10 @@
 }
 
 body {
-    background:#03a9f4;
+    position: relative;
+    background: #03a9f4;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
@@ -21,7 +24,7 @@ section {
     justify-content: flex-end;
     opacity: 0.8;
     color: azure;
-    background: #8cecff;
+    background: url(media/bg6.jpg);
 	background-size: cover;
 	background-position: center;
     border-radius: 25px;
@@ -31,6 +34,7 @@ section {
     height: 600px;
     margin-right: auto;
     margin-left: auto;
+    opacity: 0.9;
 }
 
 header {
