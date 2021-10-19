@@ -12,7 +12,7 @@
 body {
     position: relative;
     text-align: center;
-    background: #fff;
+    background: white;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,8 +25,8 @@ body {
     border: 25px solid white;
     padding: 50px;
     margin: 20px;
-    background-color: white;
-    border: 15px solid white;
+    background-color: #fff;
+    border: 15px solid #fff;
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +35,7 @@ body {
 .logo a {
     text-decoration: none;
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: black;
     letter-spacing: 5px;
     transition: 0.5s;
 }
@@ -140,6 +140,7 @@ body {
 .info p {
     width: fit-content;
     height: fit-content;
+    font-size: 24px;
     transition: 0.5s;
     margin-left: auto;
     margin-right: auto;
@@ -310,17 +311,18 @@ body {
     color: rgb(46, 84, 134);
     font-size: 18px;
     text-align: left;
-    transition: 0.5s;
     margin-top: 0px;
 }
 .about p:hover {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .discord {
     width: fit-content;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 .discord p {
     width: fit-content;
@@ -336,20 +338,21 @@ body {
     opacity: 0.8;
 }
 .discord p:hover {
-    font-size: 23px;
-    letter-spacing: 5px;
+    font-size: 21px;
+    letter-spacing: 2px;
     opacity: 1;
 }
 
 .social {
     width: fit-content;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 .social p {
     width: fit-content;
     text-align: center;
-    height: 10px;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
@@ -360,9 +363,43 @@ body {
     opacity: 0.8;
 }
 .social p:hover {
-    font-size: 33px;
-    letter-spacing: 5px;
+    font-size: 63px;
     opacity: 1;
+}
+
+.abt {
+    width: auto;
+    height: 1000px;
+    border: 25px solid white;
+    padding: 50px;
+    margin: 20px;
+    background: url(media/bg12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    border-radius: 60px;
+}
+.abt:hover {
+    opacity: 0.8;
+}
+.abt p {
+    position: relative;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+.abt p:hover {
+    letter-spacing: 20px;
 }
 
 
@@ -762,7 +799,10 @@ body {
     }
 
     .reward {
-        max-width: 300px;
+        max-width: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .reward p {
         font-size: 18px;
@@ -805,6 +845,10 @@ body {
 
     .how {
         max-width: 300px;
+        max-width: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .how p {
         font-size: 18px;
@@ -812,7 +856,6 @@ body {
         letter-spacing: 1px;
         width: fit-content;
         font-weight: 600;
-
     }
     .how p:hover {
         font-size: 18px;
@@ -850,6 +893,10 @@ body {
 
     .ad {
         max-width: 300px;
+        max-width: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .ad p {
         font-size: 18px;
@@ -891,7 +938,10 @@ body {
     }
 
     .social {
-        max-width: 300px;
+        max-width: fit-content;
+        height: fit-content;
+        margin-bottom: 100px;
+        margin-top: 0px;
     }
     .social p{
         font-size: 15px;
