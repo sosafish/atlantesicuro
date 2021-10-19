@@ -750,7 +750,7 @@ body {
 
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 601px) {
     
     .links a {
         font-size: 14px;
