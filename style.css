@@ -414,7 +414,7 @@ body {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 770px) {
     * {
         margin: 20;
         padding: 20;
@@ -787,7 +787,7 @@ body {
 
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 601px) {
+  @media screen and (max-width: 769px) {
     
     .links a {
         font-size: 14px;
