@@ -614,4 +614,12 @@ main {
         padding: 25px 50px 25px 50px;
     }
 
+    .wrapper {
+        border-bottom: solid 30px black;
+    }
+
+    .wrapper2 {
+        border-bottom: solid 80px black;
+    }
+
 }
