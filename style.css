@@ -1,405 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap');
 
 * {
-    margin: 20;
-    padding: 20;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: "Nunito", sans-serif;
+    font-family: "Work Sans";
 }
 
+@media screen and (min-width: 1201px) {
+
 body {
-    position: relative;
     text-align: center;
-    background: white;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: black;
 }
 
 .logo {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background-color: #fff;
-    border: 15px solid #fff;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.8;
+    background-color: black;
+    padding-top: 30px;
 }
 .logo a {
+    text-align: center;
     text-decoration: none;
-    font-size: 40px;
-    color: black;
+    color: whitesmoke;
+    font-size: 60px;
     letter-spacing: 5px;
+    opacity: 0.8;
     transition: 0.5s;
 }
 .logo a:hover {
-    letter-spacing: 20px;
-}
-
-.links a {
-    text-decoration: none;
-    color: black;
-}
-.links h2 {
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    transition: 0.5s;
-}
-.links h2:hover {
     letter-spacing: 10px;
-}
-
-.reward {
-    width: auto;
-    height: fit-content;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: url(media/bg11.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
-}
-.reward:hover {
-    opacity: 0.8;
-}
-.reward p {
-    position: relative;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 80px;
-    text-transform: uppercase;
-    color: cornsilk;
-    letter-spacing: 20px;
-    transition: 0.5s;
-    text-align: center;
-}
-.reward p:hover {
-    letter-spacing: 21px;
-}
-
-.buy {
-    width: auto;
-    height: fit-content;
-    margin-top: 0px;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
-}
-.buy:hover {
-    opacity: 0.8;
-}
-.buy a {
-    text-decoration: none;
-    color: black;
-}
-.buy p {
-    position: relative;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 80px;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    letter-spacing: 20px;
-    transition: 0.5s;
-    text-align: center;
-}
-.buy p:hover {
-    letter-spacing: 80px;
-    font-size: 90px;
-}
-
-.info p {
-    width: fit-content;
-    height: fit-content;
-    font-size: 24px;
-    transition: 0.5s;
-    margin-left: auto;
-    margin-right: auto;
-}
-.info p:hover {
-    font-size: 25px;
-}
-
-.how {
-    width: auto;
-    height: fit-content;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: url(media/bg19.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
-}
-.how:hover {
-    opacity: 0.8;
-}
-.how p {
-    position: relative;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 80px;
-    text-transform: uppercase;
-    color: cornsilk;
-    letter-spacing: 20px;
-    transition: 0.5s;
-    text-align: center;
-}
-.how p:hover {
-    letter-spacing: 21px;
-}
-
-.arrow {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-.arrow p {
-    width: fit-content;
-    text-align: center;
-    height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 30px;
-    transition: 1s;
-    opacity: 0.8;
-}
-.arrow p:hover {
-    font-size: 33px;
-    letter-spacing: 5px;
     opacity: 1;
 }
 
-.ad {
-    width: auto;
-    height: fit-content;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: url(media/bg14.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
+.links {
+    background-color: black;
+    padding-top: 30px;
 }
-.ad:hover {
-    opacity: 0.8;
-}
-.ad p {
-    position: relative;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 80px;
-    text-transform: uppercase;
-    color: cornsilk;
-    letter-spacing: 20px;
-    transition: 0.5s;
+.links a {
     text-align: center;
-}
-.ad p:hover {
-    letter-spacing: 21px;
-}
-
-.flex-container {
-    width: auto;
-    height: fit-content;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
-}
-.flex-item-left {
-    flex: 50%;
-  }
-  
-.flex-item-right {
-    flex: 50%;
-  }
-.flex-contaner:hover {
-    opacity: 0.8;
-}
-.flex-contaienr p {
-    width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 30px;
-    color: black;
-    transition: 0.5s;
-}
-.rflex-container p:hover {
-    font-size: 32px;
-}
-
-.story {
-    float: left;
-    width: 50%;
-  }
-
-.row:after {
-    content: normal;
-    display: table;
-    clear: both;
-}
-
-.about {
-    width: fit-content;
-    height: fit-content;
-    padding: 50px;
-    background: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 90px;
-}
-.about p {
-    width: auto;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(46, 84, 134);
-    font-size: 18px;
-    text-align: left;
-    margin-top: 0px;
-}
-.about p:hover {
-    font-size: 18px;
-}
-
-.discord {
-    width: fit-content;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
-.discord p {
-    width: fit-content;
-    text-align: center;
-    height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    color: rgb(0, 0, 0);
-    text-transform: none;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: whitesmoke;
     font-size: 20px;
-    transition: 1s;
+    letter-spacing: 1px;
     opacity: 0.8;
+    transition: 0.5s;
+    padding: 30px;
 }
-.discord p:hover {
-    font-size: 21px;
+.links a:hover {
     letter-spacing: 2px;
     opacity: 1;
 }
 
-.social {
-    width: fit-content;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+main {
+    background-color: black;
+    padding: 30px;
 }
-.social p {
-    width: fit-content;
-    text-align: center;
-    height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 30px;
-    transition: 1s;
+
+.content1 {
+    background: url(media/bg6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
     opacity: 0.8;
+    transition: 0.5s;
 }
-.social p:hover {
-    font-size: 63px;
+.content1:hover {
     opacity: 1;
 }
 
-.abt {
-    width: auto;
-    height: 1000px;
-    border: 25px solid white;
-    padding: 50px;
-    margin: 20px;
-    background: url(media/bg12.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
+.content1 p {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    opacity: 0.9;
+    transition: 0.5s;
+    padding: 250px 50px 250px 50px;
+}
+.content1 p:hover {
+    letter-spacing: 6px;
+    opacity: 1;
+} 
+
+.info1 h1 {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 50px 35px 50px 35px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.info1 h1:hover {
+    letter-spacing: 2px;
+    opacity: 1;
+}
+.info1 h2 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 50px 35px 50px 35px;
+}
+
+.button a {
+    background-color: whitesmoke; 
+    border: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: 0.5s;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.7;
-    border-radius: 60px;
 }
-.abt:hover {
+.button a:hover {
+    letter-spacing: 30px;
+    opacity: 1;
+}
+
+.content2 {
+    background: url(media/bg7.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.content2:hover {
+    opacity: 1;
+}
+
+.content2 p {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    opacity: 0.9;
+    transition: 0.5s;
+    padding: 250px 50px 250px 50px;
+}
+.content2 p:hover {
+    letter-spacing: 6px;
+    opacity: 1;
+}
+
+.info2 h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.info2 h1:hover {
+    letter-spacing: 6px;
+    opacity: 1;
+}
+.info2 h2 {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 50px 35px 50px 35px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.info2 h3 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.info2 h4 {
+    color: whitesmoke;
+    font-weight: lighter;
     opacity: 0.8;
 }
-.abt p {
-    position: relative;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 80px;
-    text-transform: uppercase;
-    color: black;
-    letter-spacing: 20px;
+
+.content3 {
+    background: url(media/bg8.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    opacity: 0.8;
     transition: 0.5s;
+}
+.content3:hover {
+    opacity: 1;
+}
+
+.content3 p {
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    opacity: 0.9;
+    transition: 0.5s;
+    padding: 250px 50px 250px 50px;
 }
-.abt p:hover {
-    letter-spacing: 20px;
+.content3 p:hover {
+    letter-spacing: 6px;
+    opacity: 1;
+}
+
 }
 
 
@@ -414,543 +241,377 @@ body {
 
 
 
-@media screen and (min-width: 770px) {
-    * {
-        margin: 20;
-        padding: 20;
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-        font-family: "Nunito", sans-serif;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** TABLET **/
+@media screen and (min-width: 481px) {
     
     body {
-        position: relative;
         text-align: center;
-        background: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
+        background-color: black;
     }
     
     .logo {
-        position: relative;
-        width: fit-content;
-        height: fit-content;
-        text-align: center;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background-color: white;
-        border: 15px solid white;
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.8;
+        background-color: black;
+        padding-top: 30px;
     }
     .logo a {
+        text-align: center;
         text-decoration: none;
+        color: whitesmoke;
+        font-size: 60px;
+        letter-spacing: 5px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    
+    .links {
+        background-color: black;
+        padding-top: 30px;
+    }
+    .links a {
+        text-align: center;
+        text-decoration: none;
+        text-transform: lowercase;
+        color: whitesmoke;
+        font-size: 20px;
+        letter-spacing: 1px;
+        opacity: 0.8;
+        transition: 0.5s;
+        padding: 30px;
+    }
+    
+    main {
+        background-color: black;
+        padding: 30px;
+    }
+    
+    .content1 {
+        background: url(media/bg6.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .content1 p {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        opacity: 0.9;
+        transition: 0.5s;
+        padding: 250px 50px 250px 50px;
+    }
+    
+    .info1 h1 {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .info1 h2 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    
+    .button a {
+        background-color: whitesmoke; 
+        border: none;
+        color: black;
         font-size: 40px;
-        color: rgb(0, 0, 0);
-        letter-spacing: 5px;
-        transition: 0.5s;
-    }
-    .logo a:hover {
+        font-weight: bolder;
+        text-transform: uppercase;
         letter-spacing: 20px;
-    }
-    
-    .links a {
-        text-decoration: none;
-        color: black;
-    }
-    .links h2 {
-        position: relative;
         text-align: center;
         text-decoration: none;
-        display: inline;
-        font-size: 20px;
-        color: rgb(0, 0, 0);
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .content2 {
+        background: url(media/bg7.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        opacity: 0.8;
+        transition: 0.5s;
+    } 
+    .content2 p {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        opacity: 0.9;
+        transition: 0.5s;
+        padding: 250px 50px 250px 50px;
+    }
+    
+    .info2 h1 {
+        color: whitesmoke;
+        font-size: 40px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .info2 h2 {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        padding: 50px 35px 50px 35px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .info2 h3 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    .info2 h4 {
+        color: whitesmoke;
+        font-weight: lighter;
+        opacity: 0.8;
+    }
+    
+    .content3 {
+        background: url(media/bg8.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    
+    .content3 p {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        opacity: 0.9;
+        transition: 0.5s;
+        padding: 250px 50px 250px 50px;
+    }
+}
+
+
+
+
+
+
+/** SMARTPHONE **/
+@media screen and (max-width: 480px) {
+
+    body {
+        text-align: center;
+        background-color: black;
+    }
+    
+    .logo {
+        background-color: black;
+        padding-top: 30px;
+    }
+    .logo a {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 30px;
+        letter-spacing: 5px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    
+    .links {
+        background-color: black;
+        padding-top: 30px;
+    }
+    .links a {
+        text-align: center;
+        text-decoration: none;
+        text-transform: lowercase;
+        color: whitesmoke;
+        font-size: 15px;
+        letter-spacing: 1px;
+        opacity: 0.8;
+        transition: 0.5s;
         padding: 10px;
-        transition: 0.5s;
-    }
-    .links h2:hover {
-        letter-spacing: 10px;
     }
     
-    .reward {
-        width: auto;
-        height: fit-content;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background: url(media/bg11.jpg);
+    main {
+        background-color: black;
+        padding-top: 50px;
+    }
+    
+    .content1 {
+        background: url(media/bg6.jpg);
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.7;
-        border-radius: 60px;
-    }
-    .reward:hover {
+        border-radius: 20px;
         opacity: 0.8;
+        transition: 0.5s;;
     }
-    .reward p {
-        position: relative;
-        width: 60%;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 80px;
-        text-transform: uppercase;
-        color: cornsilk;
-        letter-spacing: 20px;
-        transition: 0.5s;
+    .content1 p {
         text-align: center;
-    }
-    .reward p:hover {
-        letter-spacing: 21px;
-    }
-    
-    .buy {
-        width: auto;
-        height: fit-content;
-        margin-top: 0px;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background: white;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.7;
-        border-radius: 60px;
-    }
-    .buy:hover {
-        opacity: 0.8;
-    }
-    .buy a {
         text-decoration: none;
-        color: black;
-    }
-    .buy p {
-        position: relative;
-        width: 60%;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 80px;
         text-transform: uppercase;
-        color: rgb(0, 0, 0);
-        letter-spacing: 20px;
-        transition: 0.5s;
-        text-align: center;
-    }
-    .buy p:hover {
-        letter-spacing: 80px;
-        font-size: 90px;
-    }
-    
-    .info p {
-        width: fit-content;
-        height: fit-content;
-        transition: 0.5s;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .info p:hover {
-        font-size: 25px;
-    }
-    
-    .how {
-        width: auto;
-        height: fit-content;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background: url(media/bg19.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.7;
-        border-radius: 60px;
-    }
-    .how:hover {
-        opacity: 0.8;
-    }
-    .how p {
-        position: relative;
-        width: 60%;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 80px;
-        text-transform: uppercase;
-        color: cornsilk;
-        letter-spacing: 20px;
-        transition: 0.5s;
-        text-align: center;
-    }
-    .how p:hover {
-        letter-spacing: 21px;
-    }
-    
-    .arrow {
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .arrow p {
-        width: fit-content;
-        text-align: center;
-        height: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        color: rgb(0, 0, 0);
-        text-transform: uppercase;
-        font-size: 30px;
-        transition: 1s;
-        opacity: 0.8;
-    }
-    .arrow p:hover {
-        font-size: 33px;
-        letter-spacing: 5px;
-        opacity: 1;
-    }
-    
-    .ad {
-        width: auto;
-        height: fit-content;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background: url(media/bg14.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.7;
-        border-radius: 60px;
-    }
-    .ad:hover {
-        opacity: 0.8;
-    }
-    .ad p {
-        position: relative;
-        width: 60%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: 80px;
-        text-transform: uppercase;
-        color: cornsilk;
-        letter-spacing: 20px;
-        transition: 0.5s;
-        text-align: center;
-    }
-    .ad p:hover {
-        letter-spacing: 21px;
-    }
-    
-    .flex-container {
-        width: auto;
-        height: fit-content;
-        border: 25px solid white;
-        padding: 50px;
-        margin: 20px;
-        background: white;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.7;
-        border-radius: 60px;
-    }
-    .flex-item-left {
-        flex: 50%;
-      }
-      
-    .flex-item-right {
-        flex: 50%;
-      }
-    .flex-contaner:hover {
-        opacity: 0.8;
-    }
-    .flex-contaienr p {
-        width: 600px;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 30px;
-        color: black;
-        transition: 0.5s;
-    }
-    .rflex-container p:hover {
-        font-size: 32px;
-    }
-    
-    .story {
-        float: left;
-        width: 50%;
-      }
-    
-    .row:after {
-        content: normal;
-        display: table;
-        clear: both;
-    }
-    
-    .about {
-        width: fit-content;
-        height: fit-content;
-        padding: 50px;
-        background: white;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 90px;
-    }
-    .about p {
-        width: auto;
-        height: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        color: rgb(46, 84, 134);
-        font-size: 18px;
-        text-align: left;
-        transition: 0.5s;
-        margin-top: 0px;
-    }
-    .about p:hover {
+        color: whitesmoke;
         font-size: 20px;
-    }
-    
-    .discord {
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .discord p {
-        width: fit-content;
-        text-align: center;
-        height: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        color: rgb(0, 0, 0);
-        text-transform: none;
-        font-size: 20px;
-        transition: 1s;
-        opacity: 0.8;
-    }
-    .discord p:hover {
-        font-size: 23px;
+        font-weight: bolder;
         letter-spacing: 5px;
-        opacity: 1;
-    }
-    
-    .social {
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .social p {
-        width: fit-content;
-        text-align: center;
-        height: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        color: rgb(0, 0, 0);
-        text-transform: uppercase;
-        font-size: 30px;
-        transition: 1s;
-        opacity: 0.8;
-    }
-    .social p:hover {
-        font-size: 33px;
-        letter-spacing: 5px;
-        opacity: 1;
-    }
-    }
-    
-
-
-
-
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 769px) {
-    
-    .links a {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
-    .links a:hover {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
-
-    .reward {
-        max-width: 100%;
-        border-radius: 30px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .reward p {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        width: fit-content;
-        font-weight: 600;
-    }
-    .reward p:hover {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        font-weight: 600;
-    }
-
-    .info p {
-        width: 180px;
-        font-size: 12px;
-    }
-    .info p:hover {
-        width: 180px;
-        font-size: 12px;
-    }
-    .info p2 {
-        width: 180px;
-        font-size: 10px;
-    }
-
-    .buy {
-        max-width: 300px;
-    }
-    .buy p{
-        font-size: 15px;
-        letter-spacing: 10px;
-    }
-    .buy p:hover {
-        font-size: 16px;
-        letter-spacing: 11px;
-    }
-
-    .how {
-        max-width: 300px;
-        max-width: 100%;
-        border-radius: 30px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .how p {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        width: fit-content;
-        font-weight: 600;
-    }
-    .how p:hover {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        font-weight: 600;
-    }
-
-    .arrow {
-        max-width: 300px;
-    }
-    .arrow p{
-        font-size: 15px;
-        letter-spacing: 4px;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
-    .arrow p:hover {
-        font-size: 15px;
-    }
-
-    .about p {
-        width: 180px;
-        font-size: 12px;
-    }
-    .about p:hover {
-        width: 180px;
-        font-size: 12px;
-    }
-    .about p2 {
-        width: 180px;
-        font-size: 10px;
-    }
-
-    .ad {
-        max-width: 300px;
-        max-width: 100%;
-        border-radius: 30px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .ad p {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        width: fit-content;
-        font-weight: 600;
-    }
-    .ad p:hover {
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        font-weight: 600;
-    }
-
-    .flex-container {
-        flex-direction: column;
-      }
-
-    .story p {
-        font-size: 15px;
-    }
-
-    .discord {
-        max-width: 300px;
-    }
-    .discord p{
-        font-size: 7px;
-        letter-spacing: 1px;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
         transition: 0.5s;
-        display: none;
+        padding: 25px 50px 25px 50px;
     }
-    .discord p:hover {
-        font-size: 8px;
+    
+    .info1 h1 {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: lighter;
         letter-spacing: 1px;
+        padding: 50px 35px 50px 35px;
+
+    }
+    .info1 h2 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: lighter;
+        padding: 50px 35px 50px 35px;
+    }
+    
+    .button a {
+        background-color: whitesmoke; 
+        border: none;
+        color: black;
+        font-size: 40px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
     }
 
-    .social {
-        max-width: fit-content;
-        height: fit-content;
-        margin-bottom: 100px;
-        margin-top: 0px;
-    }
-    .social p{
-        font-size: 15px;
-        letter-spacing: 4px;
-        margin-right: auto;
-        margin-left: auto;
+    .botton a {
         text-align: center;
     }
-    .social p:hover {
-        font-size: 15px;
+
+    .content2 {
+        background: url(media/bg7.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        opacity: 0.8;
+        transition: 0.5s;
+    } 
+    .content2 p {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        transition: 0.5s;
+        padding: 25px 50px 25px 50px;
     }
+    
+    .info2 h1 {
+        color: whitesmoke;
+        font-size: 40px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .info2 h2 {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        padding: 50px 35px 50px 35px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    .info2 h3 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    .info2 h4 {
+        color: whitesmoke;
+        font-weight: lighter;
+        opacity: 0.8;
+    }
+    
+    .content3 {
+        background: url(media/bg8.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+    
+    .content3 p {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        transition: 0.5s;
+        padding: 25px 50px 25px 50px;
+    }
+
 }
