@@ -111,20 +111,19 @@ main {
 .button a {
     background-color: whitesmoke; 
     border: none;
+    position: relative;
     color: black;
     font-size: 40px;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 20px;
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 15px;
     opacity: 0.8;
     transition: 0.5s;
-    margin-left: auto;
-    margin-right: auto;
 }
 .button a:hover {
     letter-spacing: 30px;
@@ -225,6 +224,13 @@ main {
 .content3 p:hover {
     letter-spacing: 6px;
     opacity: 1;
+}
+
+.count h1 {
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: lighter;
+    opacity: 0.5;
 }
 
 }
@@ -623,3 +629,5 @@ main {
     }
 
 }
+
+
